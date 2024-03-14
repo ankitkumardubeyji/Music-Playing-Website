@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* height must be provided to do the align items center */
+    height: 100vh;
+}
+
+nav{
+    position: fixed;
+    top:0;
+    left:0; 
+    background-color: black;
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 3px;
+}
+
+nav ul li{
+    list-style: none;
+    color: white;
+}
+
+nav img{
+    width: 30px;
+}
+
+
+.container{
+    background-image: url("../assets/bg.jpg");
+    width: 90%;
+    height: 86vh;
+    overflow-y: scroll;
+}
+
+.container h1{
+    color: white;
+    padding: 3px 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.soundContainer
+{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.soundItem{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    background-color: white;
+    border-radius: 25px;
+    padding: 2px 4px;
+    width: 50%;
+    height: 7vh;
+    align-items: center;
+}
+
+.soundItem img{
+    width: 30px;
+
+}
+
+
+
+
