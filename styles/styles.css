@@ -40,7 +40,7 @@ nav img{
 .container{
     background-image: url("../assets/bg.jpg");
     width: 90%;
-    height: 86vh;
+    height: 70vh;
     overflow-y: scroll;
 }
 
@@ -67,12 +67,58 @@ nav img{
     width: 50%;
     height: 7vh;
     align-items: center;
+    position: relative;
+    cursor: pointer;
 }
 
 .soundItem img{
     width: 30px;
 
 }
+
+.soundItem h3{
+    position: absolute;
+    right:12px;
+}
+
+.songBar{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    color: wheat;
+}
+
+
+#myProgressBar{
+    width: 100vw;
+    cursor: pointer;
+    position: absolute;
+    top:0;
+}
+
+.songBar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.songBox{
+    display: flex;
+    justify-content: center;
+    gap:18vw;
+}
+
+.songBar img{
+    width: 20px; 
+}
+
+.songControl{
+    display: flex;
+    gap:10px;
+}
+
 
 
 
