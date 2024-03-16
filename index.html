@@ -6,6 +6,7 @@
     <title>Music-Playing-Website</title>
     <link rel="stylesheet" href="styles/styles.css">
     <script src="https://kit.fontawesome.com/545943a9f7.js" crossorigin="anonymous"></script>
+  
 </head>
 <body>
     <nav>
@@ -197,20 +198,20 @@
     <div class="songBar">
         <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
         <div class="songBox">
-            
        
             <div class="currentSongTitle">
-                <h1>Aaaja na Ferrari meim</h>
+                <h1>Aaaja na Ferrari meim</h1>
                 <img src="assets/covers/1.jpg" alt="">   
             </div>
             
             <div class="songControl">
-                <i class="fa-solid fa-backward"></i>
-                <i class="fa-solid fa-play"></i>
-                <i class="fa-solid fa-forward"></i>
+                <i class="fa-solid fa-backward" id="prev"></i>
+                <i class="fa-regular fa-circle-play"></i>
+                <i class="fa-solid fa-forward" id="next"></i>
             </div>
         </div>
     </div>
 
+    <script src="scripts/scripts.js"></script>
 </body>
 </html>
